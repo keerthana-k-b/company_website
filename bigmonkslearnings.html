@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bigmonks Learning | Professional IT Training & Courses in Kerala</title>
+    <meta name="description" content="Master in-demand tech skills with Bigmonks Learning. Comprehensive courses in Flutter, Python, Java, UI/UX Design, AI/ML, Data Science, and more. Expert-led training with hands-on projects.">
+    <meta name="keywords" content="Flutter training Kerala, Python course, Java programming, UI/UX design course, AI ML training, Data Science course, IT training Ernakulam, coding bootcamp Kerala">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="img/favicon/manifest.webmanifest">    
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/loaders/loader.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+    <!-- WhatsApp Button Styles -->
+    <style>
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 30px;
+      right: 30px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 32px;
+      box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      animation: pulse-whatsapp 2s infinite;
+    }
+    .whatsapp-float:hover {
+      background-color: #128c7e;
+      transform: scale(1.1);
+      animation: none;
+    }
+    .whatsapp-tooltip {
+      position: absolute;
+      right: 70px;
+      background-color: #128c7e;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      white-space: nowrap;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    .whatsapp-float:hover .whatsapp-tooltip {
+      opacity: 1;
+    }
+    @keyframes pulse-whatsapp {
+      0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+      70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+    }
+    </style>
+</head>
+<body>
+
+    <!-- Loader Removed -->
+
+    <!-- Header Start -->
+    <header id="header" class="header d-flex justify-content-center loading__fade">
+      <div class="header__navigation d-flex justify-content-start">
+        <nav id="menu" class="menu">
+          <ul class="menu__list d-flex justify-content-start">
+            <li class="menu__item">
+              <a class="menu__link btn" href="#courses">
+                <span class="menu__caption">Courses</span>
+                <i class="ph ph-book-open"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#programs">
+                <span class="menu__caption">Programs</span>
+                <i class="ph ph-graduation-cap"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#benefits">
+                <span class="menu__caption">Benefits</span>
+                <i class="ph ph-star"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="works.html">
+                <span class="menu__caption">Our Works</span>
+                <i class="ph ph-briefcase"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#testimonials">
+                <span class="menu__caption">Reviews</span>
+                <i class="ph ph-chat-circle"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#contact">
+                <span class="menu__caption">Enroll</span>
+                <i class="ph ph-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Fixed Logo Start -->
+ <!-- Fixed Logo Start -->
+<!-- Fixed Logo Start -->
+<div class="logo loading__fade">
+  <a href="index.html" class="logo__link" style="display: block;">
+    <div class="logo-text" style="font-size: 30px;">bigmonks</div>
+    <div class="logo-subtext" style="font-size: 16px; text-align: right;">Learnings</div>
+  </a>
+</div>
+<!-- Fixed Logo End -->
+<!-- Fixed Logo End -->
+    <!-- Fixed Logo End -->
+
+
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/918848806406?text=Hi%20Bigmonks!%20I'm%20interested%20in%20your%20training%20programs." 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Chat on WhatsApp">
+      <i class="ph-fill ph-whatsapp-logo"></i>
+      <span class="whatsapp-tooltip">Enroll Now</span>
+    </a>
+
+    <!-- Page Content Start -->
+    <main id="page-content" class="page-content">
+
+      <!-- Hero Section Start -->
+      <section id="home" class="main home">
+        <div class="main__intro intro-95-desktop">
+          <div class="container-fluid p-0 fullheight-desktop">
+            <div class="row g-0 fullheight-desktop align-items-xl-stretch">
+              <div class="col-12 col-xl-2"></div>
+              <div class="col-12 col-xl-8 fullheight-desktop">
+                <div id="headline" class="headline headline-95-desktop d-flex align-items-start flex-column loading-wrap">
+                  <h1 class="headline__title loading__item">Learn. Build. Transform.</h1>
+                  <p class="headline__subtitle space-top loading__item">
+                    Master the most <b>in-demand tech skills</b> with industry experts at <b>Bigmonks Learning</b>
+                    <br><br>
+                    From Flutter to AI/ML, Web Development to Data Science - your journey to tech excellence starts here.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-xl-2"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Intro Blockquote -->
+        <div class="main__media media-stack-bottom">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <div class="col-12 col-xl-2"></div>
+              <div class="col-12 col-xl-8">
+                <div class="content__block large-text-block pre-stack">
+                  <div class="container-fluid p-0">
+                    <div class="row g-0">
+                      <div class="col-12">
+                        <blockquote class="reveal-type animate-in-up">
+                          Education is not the learning of facts, but the training of the mind to think. Join our hands-on programs designed by industry professionals.
+                        </blockquote>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section End -->
+
+      <!-- Courses Section Start -->
+      <section id="courses" class="inner inner-stack-bottom portfolio">
+        <div class="inner__wrapper">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <div class="col-12">
+                <div class="inner__content">
+                  
+                  <!-- Section Title -->
+                  <div class="content__block section-text-title">
+                    <div class="block__descr">
+                      <h2 class="reveal-type animate-in-up">Popular Tech Courses</h2>
+                      <p class="h2__text type-basic-160lh animate-in-up">Industry-relevant curriculum designed to make you job-ready</p>
+                    </div>
+                  </div>
+
+                  <!-- Courses Cards -->
+                  <div class="content__block grid-block">
+                    <div class="container-fluid p-0">
+                      <div class="row g-0 align-items-stretch cards">
+
+                        <!-- Flutter Development -->
+                        <div class="col-12 col-md-6 col-lg-4 cards__item grid-item animate-card-2">
+                          <div class="cards__card d-flex flex-column">
+                            <div class="cards__descr">
+                              <h3 class="cards__title animate-in-up">Flutter<br>Development</h3>
+                              <p class="cards__text type-basic-160lh animate-in-up">
+                                Build beautiful cross-platform mobile apps with Flutter & Dart. From basics to advanced state management.
+                              </p>
+                              <div class="cards__tags animate-in-up" style="margin-top: 15px;">
+                                <span style="opacity: 0.7; font-size: 14px;">12 Weeks • Beginner to Advanced</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Python Programming -->
+                        <div class="col-12 col-md-6 col-lg-4 cards__item grid-item animate-card-2">
+                          <div class="cards__card d-flex flex-column">
+                            <div class="cards__descr">
+                              <h3 class="cards__title animate-in-up">Python<br>Programming</h3>
+                              <p class="cards__text type-basic-160lh animate-in-up">
+                                Master Python from fundamentals to advanced topics. Web development, automation, and scripting.
+                              </p>
+                              <div class="cards__tags animate-in-up" style="margin-top: 15px;">
+                                <span style="opacity: 0.7; font-size: 14px;">10 Weeks • All Levels</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Java Programming -->
+                        <div class="col-12 col-md-6 col-lg-4 cards__item grid-item animate-card-2">
+                          <div class="cards__card d-flex flex-column">
+                            <div class="cards__descr">
+                              <h3 class="cards__title animate-in-up">Java<br>Programming</h3>
+                              <p class="cards__text type-basic-160lh animate-in-up">
+                                Learn enterprise Java, Spring Boot, and build scalable backend applications from scratch.
+                              </p>
+                              <div class="cards__tags animate-in-up" style="margin-top: 15px;">
+                                <span style="opacity: 0.7; font-size: 14px;">14 Weeks • Intermediate</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- UI/UX Design -->
+                        <div class="col-12 col-md-6 col-lg-4 cards__item grid-item animate-card-2">
+                          <div class="cards__card d-flex flex-column">
+                            <div class="cards__descr">
+                              <h3 class="cards__title animate-in-up">UI/UX<br>Design</h3>
+                              <p class="cards__text type-basic-160lh animate-in-up">
+                                Create stunning user interfaces with Figma, Adobe XD. Design thinking and user research included.
+                              </p>
+                              <div class="cards__tags animate-in-up" style="margin-top: 15px;">
+                                <span style="opacity: 0.7; font-size: 14px;">8 Weeks • Creative</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- AI & Machine Learning -->
+                        <div class="col-12 col-md-6 col-lg-4 cards__item grid-item animate-card-2">
+                          <div class="cards__card d-flex flex-column">
+                            <div class="cards__descr">
+                              <h3 class="cards__title animate-in-up">AI & Machine<br>Learning</h3>
+                              <p class="cards__text type-basic-160lh animate-in-up">
+                                Dive into AI/ML with Python, TensorFlow, and scikit-learn. Build intelligent applications.
+                              </p>
+                              <div class="cards__tags animate-in-up" style="margin-top: 15px;">
+                                <span style="opacity: 0.7; font-size: 14px;">16 Weeks • Advanced</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Data Science -->
+                        <div class="col-12 col-md-6 col-lg-4 cards__item grid-item animate-card-2">
+                          <div class="cards__card d-flex flex-column">
+                            <div class="cards__descr">
+                              <h3 class="cards__title animate-in-up">Data<br>Science</h3>
+                              <p class="cards__text type-basic-160lh animate-in-up">
+                                Analyze data, create visualizations, and build predictive models. Statistics to deep learning.
+                              </p>
+                              <div class="cards__tags animate-in-up" style="margin-top: 15px;">
+                                <span style="opacity: 0.7; font-size: 14px;">14 Weeks • Advanced</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Courses Section End -->
+
+      <!-- Programs Section Start -->
+      <section id="programs" class="inner inner-grid-bottom about">
+        <div class="inner__wrapper">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <div class="col-12 col-xl-2">
+                <div class="inner__name">
+                  <div class="content__block name-block">
+                    <span class="section-name icon-right animate-in-up">
+                      <span class="section-name-caption">Programs</span>
+                      <i class="ph ph-arrow-down-right"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-xl-8">
+                <div class="inner__content">
+
+                  <div class="content__block section-text-title">
+                    <div class="block__descr">
+                      <h2 class="reveal-type animate-in-up">Flexible Learning<br>Paths for Everyone</h2>
+                    </div>
+                  </div>
+
+                  <!-- Programs Cards -->
+                  <div class="content__block grid-block">
+                    <div class="achievements d-flex flex-column flex-md-row align-items-md-stretch">
+                      
+                      <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+                        <div class="achievements__card">
+                          <p class="achievements__number animate-in-up"><i class="ph ph-student"></i></p>
+                          <p class="achievements__descr animate-in-up" style="font-size: 18px; margin-bottom: 10px;">Internship Program</p>
+                          <p class="type-basic-160lh animate-in-up" style="font-size: 14px; opacity: 0.8;">3-6 months hands-on training with real projects, mentorship, and completion certificate</p>
+                        </div>
+                      </div>
+
+                      <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+                        <div class="achievements__card">
+                          <p class="achievements__number animate-in-up"><i class="ph ph-graduation-cap"></i></p>
+                          <p class="achievements__descr animate-in-up" style="font-size: 18px; margin-bottom: 10px;">Professional Courses</p>
+                          <p class="type-basic-160lh animate-in-up" style="font-size: 14px; opacity: 0.8;">Structured 8-16 week programs with certifications for career advancement</p>
+                        </div>
+                      </div>
+
+                      <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+                        <div class="achievements__card">
+                          <p class="achievements__number animate-in-up"><i class="ph ph-lightning"></i></p>
+                          <p class="achievements__descr animate-in-up" style="font-size: 18px; margin-bottom: 10px;">Weekend Bootcamps</p>
+                          <p class="type-basic-160lh animate-in-up" style="font-size: 14px; opacity: 0.8;">Intensive weekend sessions perfect for working professionals and students</p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-12 col-xl-2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Programs Section End -->
+
+      <!-- Benefits Section Start -->
+      <section id="benefits" class="inner services">
+        <div class="inner__wrapper">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <div class="col-12 col-xl-2">
+                <div class="inner__name">
+                  <div class="content__block name-block">
+                    <span class="section-name icon-right animate-in-up">
+                      <span class="section-name-caption">Why Choose Us</span>
+                      <i class="ph ph-arrow-down-right"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-xl-8">
+                <div class="inner__content">
+
+                  <div class="content__block section-grid-title">
+                    <div class="block__descr">
+                      <h2 class="reveal-type animate-in-up">Learn from the<br>best in the industry</h2>
+                    </div>
+                  </div>
+
+                  <!-- Benefits List -->
+                  <div class="content__block grid-block pre-grid-items">
+                    <div class="container-fluid p-0">
+                      <div class="row g-0">
+                        
+                        <div class="col-12 grid-item animate-in-up">
+                          <div style="padding: 30px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                            <h3 style="margin-bottom: 10px;"><i class="ph ph-users-three"></i> Expert Instructors</h3>
+                            <p class="type-basic-160lh">Learn from industry professionals with 10+ years of experience in their domains</p>
+                          </div>
+                        </div>
+
+                        <div class="col-12 grid-item animate-in-up">
+                          <div style="padding: 30px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                            <h3 style="margin-bottom: 10px;"><i class="ph ph-code"></i> Hands-on Projects</h3>
+                            <p class="type-basic-160lh">Build real-world projects and create an impressive portfolio to showcase to employers</p>
+                          </div>
+                        </div>
+
+                        <div class="col-12 grid-item animate-in-up">
+                          <div style="padding: 30px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                            <h3 style="margin-bottom: 10px;"><i class="ph ph-certificate"></i> Industry Certificates</h3>
+                            <p class="type-basic-160lh">Earn recognized certifications upon completion to boost your career prospects</p>
+                          </div>
+                        </div>
+
+                        <div class="col-12 grid-item animate-in-up">
+                          <div style="padding: 30px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                            <h3 style="margin-bottom: 10px;"><i class="ph ph-briefcase"></i> Placement Support</h3>
+                            <p class="type-basic-160lh">Get career guidance, resume building, and interview preparation assistance</p>
+                          </div>
+                        </div>
+
+                        <div class="col-12 grid-item animate-in-up">
+                          <div style="padding: 30px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                            <h3 style="margin-bottom: 10px;"><i class="ph ph-infinity"></i> Lifetime Access</h3>
+                            <p class="type-basic-160lh">Access course materials, recordings, and community support forever</p>
+                          </div>
+                        </div>
+
+                        <div class="col-12 grid-item animate-in-up">
+                          <div style="padding: 30px 0;">
+                            <h3 style="margin-bottom: 10px;"><i class="ph ph-chats-circle"></i> Mentorship Program</h3>
+                            <p class="type-basic-160lh">Get personalized guidance from mentors to accelerate your learning journey</p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-12 col-xl-2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Benefits Section End -->
+
+      <!-- Testimonials Section Start -->
+      <!-- Testimonials Section End -->
+
+      <!-- Contact/Enrollment Section Start -->
+      <section id="contact" class="inner contact inner-grid-bottom no-padding-bottom">
+        <div class="inner__wrapper">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              
+              <div class="col-12 col-xl-2">
+                <div class="inner__name">
+                  <div class="content__block name-block">
+                    <span class="section-name icon-right animate-in-up">
+                      <span class="section-name-caption">Enroll Now</span>
+                      <i class="ph ph-arrow-down-right"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-xl-8">
+                <div class="inner__content">
+
+                  <!-- Section Title -->
+                  <div class="content__block section-form-title">
+                    <div class="block__descr">
+                      <h2 class="reveal-type animate-in-up">Start Your Learning Journey!</h2>
+                      <p class="h2__text type-basic-160lh animate-in-up">Ready to transform your career? Fill out the form below and our team will get back to you with course details, schedule, and enrollment information.</p>
+                    </div>
+                  </div>
+
+                  <!-- Enrollment Form Start -->
+                  <div class="content__block grid-block pre-grid-items">
+                    <div class="form-container">
+
+                      <!-- Reply Messages -->
+                      <div class="form__reply centered text-center">
+                        <i class="ph-thin ph-smiley reply__icon"></i>
+                        <p class="reply__title">Awesome!</p>
+                        <span class="reply__text">Thanks for your interest! Our team will contact you within 24 hours.</span>
+                      </div>
+
+                      <!-- Enrollment Form -->
+                      <form class="form contact-form" id="contact-form">
+                        <input type="hidden" name="project_name" value="Bigmonks Learning">
+                        <input type="hidden" name="admin_email" value="info@bigmonks.com">
+                        <input type="hidden" name="form_subject" value="New Course Enrollment Inquiry">
+                        
+                        <div class="container-fluid p-0">
+                          <div class="row gx-0">
+                            <div class="col-12 col-md-6 form__item animate-in-up">
+                              <input type="text" name="Name" placeholder="Your name*" required>
+                            </div>
+                            <div class="col-12 col-md-6 form__item animate-in-up">
+                              <input type="email" name="Email" placeholder="Email address*" required>
+                            </div>
+                            <div class="col-12 col-md-6 form__item animate-in-up">
+                              <input type="tel" name="Phone" placeholder="Phone number*" required>
+                            </div>
+                            <div class="col-12 col-md-6 form__item animate-in-up">
+                              <select name="Course" required style="width: 100%; padding: 15px; background: var(--bg-color); border: 1px solid rgba(255,255,255,0.1); color: var(--text-color); border-radius: 8px;">
+                                <option value="">Select a course*</option>
+                                <option value="Flutter Development">Flutter Development</option>
+                                <option value="Python Programming">Python Programming</option>
+                                <option value="Java Programming">Java Programming</option>
+                                <option value="UI/UX Design">UI/UX Design</option>
+                                <option value="AI & Machine Learning">AI & Machine Learning</option>
+                                <option value="Data Science">Data Science</option>
+                                <option value="Full Stack Web Development">Full Stack Web Development</option>
+                                <option value="DevOps & Cloud">DevOps & Cloud</option>
+                                <option value="Other">Other</option>
+                              </select>
+                            </div>
+                            <div class="col-12 col-md-6 form__item animate-in-up">
+                              <select name="Program" required style="width: 100%; padding: 15px; background: var(--bg-color); border: 1px solid rgba(255,255,255,0.1); color: var(--text-color); border-radius: 8px;">
+                                <option value="">Program type*</option>
+                                <option value="Internship">Internship Program</option>
+                                <option value="Professional Course">Professional Course</option>
+                                <option value="Weekend Bootcamp">Weekend Bootcamp</option>
+                              </select>
+                            </div>
+                            <div class="col-12 col-md-6 form__item animate-in-up">
+                              <input type="text" name="Education" placeholder="Current education/designation">
+                            </div>
+                            <div class="col-12 form__item animate-in-up">
+                              <textarea name="Message" placeholder="Tell us about your goals and experience level"></textarea>
+                            </div>
+                            <div class="col-12 form__item animate-in-up">
+                              <button class="btn btn-default hover-default" type="submit">
+                                <em></em>
+                                <span class="btn-caption">Submit Enrollment Request</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                      <!-- Enrollment Form End -->
+
+                    </div>
+                  </div>
+                  <!-- Enrollment Form Block End -->
+
+                  <!-- Social Cards -->
+                  <div class="content__block grid-block">
+                    <ul class="socials-cards d-flex justify-content-start flex-wrap">
+                      <li class="socials-cards__item grid-item d-flex animate-card-5">
+                        <a class="socials-cards__link d-flex align-items-center justify-content-center" href="https://www.linkedin.com/company/bigmonks-technologies01" target="_blank">
+                          <em></em>
+                          <i class="ph ph-linkedin-logo"></i>
+                        </a>
+                      </li>
+                      <li class="socials-cards__item grid-item d-flex animate-card-5">
+                        <a class="socials-cards__link d-flex align-items-center justify-content-center" href="https://x.com/BigmonksTech" target="_blank">
+                          <em></em>
+                          <i class="ph ph-twitter-logo"></i>
+                        </a>
+                      </li>
+                      <li class="socials-cards__item grid-item d-flex animate-card-5">
+                        <a class="socials-cards__link d-flex align-items-center justify-content-center" href="https://www.instagram.com/bigmonkstechnologies" target="_blank">
+                          <em></em>
+                          <i class="ph ph-instagram-logo"></i>
+                        </a>
+                      </li>
+                      <li class="socials-cards__item grid-item d-flex animate-card-5">
+                        <a class="socials-cards__link d-flex align-items-center justify-content-center" href="https://wa.me/918848806406" target="_blank">
+                          <em></em>
+                          <i class="ph ph-whatsapp-logo"></i>
+                        </a>
+                      </li>
+                      <li class="socials-cards__item grid-item d-flex animate-card-5">
+                        <a class="socials-cards__link d-flex align-items-center justify-content-center" href="mailto:info@bigmonks.com" target="_blank">
+                          <em></em>
+                          <i class="ph ph-envelope"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- Footer Start -->
+                    <footer class="footer">
+  <div class="container-fluid p-0">
+    <div class="row g-0">
+      <div class="col-12">
+
+        <!-- Footer Email Link -->
+        <div class="content__block pre-grid-items">
+          <div class="footer__link d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+            <div class="footer__text reveal-type animate-in-up">Have a project?<br>Let's discuss!</div>
+            <div class="footer__btn animate-in-up">
+              <a href="mailto:info@bigmonks.com?subject=Project%20Inquiry%20from%20Website" class="btn btn-circle-icon hover-circle">
+                <em></em>
+                <i class="ph-light ph-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer__divider animate-in-up"></div>
+        </div>
+        <!-- Footer Email Link End -->
+
+        <!-- Contact Data -->
+        <div class="content__block grid-block">
+          <div class="container-fluid p-0 contact-data">
+            <div class="row g-0">
+
+              <!-- Logo -->
+              <div class="col-12 col-lg-3 contact-data__item grid-item">
+                <a href="#home" class="footer-logo logo-text animate-in-up">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                    <style type="text/css">
+                      .mxd-background { fill: var(--neutral-bright); }
+                      .mxd-cat { clip-path: url(#mxd-path-id-2); fill: var(--t-opp-bright); }
+                    </style>
+                    <path class="mxd-background" d="M33.4,50H16.7C7.5,50,0,42.5,0,33.3V16.7C0,7.5,7.5,0,16.7,0h16.7C42.5,0,50,7.5,50,16.7v16.7
+                      C50,42.5,42.5,50,33.4,50z"/>
+                    <g>
+                      <defs>
+                        <path id="mxd-clip-path-2" d="M33.4,50H16.7C7.5,50,0,42.5,0,33.3V16.7C0,7.5,7.5,0,16.7,0h16.7C42.5,0,50,7.5,50,16.7v16.7
+                          C50,42.5,42.5,50,33.4,50z"/>
+                      </defs>
+                      <clipPath id="mxd-path-id-2">
+                        <use xlink:href="#mxd-clip-path-2" style="overflow:visible;"/>
+                      </clipPath>
+                      <path class="mxd-cat" d="M29.2,30.8h2.5v2.5v2.5h-2.5v-2.5V30.8z M18.4,33.3v2.5h2.5v-2.5v-2.5h-2.5V33.3z M35,18.3v2.5h-2.5v-2.5H35z M30,23.3h2.5v-2.5H30V23.3z M25,23.3h-2.5H20v2.5h2.5H25h2.5H30v-2.5h-2.5H25z M17.5,20.8v2.5H20v-2.5H17.5z M15,18.3v2.5h2.5v-2.5H15z M12.5,23.3v2.5v2.5H15v-2.5v-2.5v-2.5h-2.5V23.3z M10,30.8v2.5H8.4H5.9v2.5h2.5v2.5H5.9v2.5h2.5v2.5v2.5v2.5v2.5h2.5v-2.5v-2.5v-2.5h2.5h2.5v-2.5h-2.5h-2.5v-2.5v-2.5h1.7v-2.5v-2.5H10V30.8z M37.5,23.3v-2.5H35v2.5v2.5v2.5h2.5v-2.5V23.3z M44.2,35.8v-2.5h-2.5H40v-2.5v-2.5h-2.5v2.5v2.5h1.7v2.5v2.5v2.5h-2.5h-2.5v2.5h2.5h2.5v2.5v2.5v2.5h2.5v-2.5v-2.5v-2.5v-2.5h2.5v-2.5h-2.5v-2.5H44.2z"/>
+                    </g>
+                  </svg>
+                  <span>Bigmonks*</span>
+                </a>
+                <p class="contact-data__text small type-basic-160lh animate-in-up" style="margin-top: 15px; opacity: 0.8;">
+                  Transforming ideas into digital reality with innovative technology solutions.
+                </p>
+              </div>
+
+              <!-- Location -->
+              <div class="col-12 col-md-4 col-lg-3 contact-data__item grid-item">
+                <p class="contact-data__title tagline-chapter animate-in-up">Location</p>
+                <p class="contact-data__text small type-basic-160lh">
+                  <a class="link-small-160lh animate-in-up" href="https://share.google/9O4jQwYUQ4s3JKIWl" target="_blank">
+                    Kakkanad, Ernakulam<br>Kerala - 682037<br>India
+                  </a>
+                </p>
+              </div>
+
+              <!-- Phone -->
+              <div class="col-12 col-md-4 col-lg-3 contact-data__item grid-item">
+                <p class="contact-data__title tagline-chapter animate-in-up">Contact</p>
+                <p class="contact-data__text small type-basic-160lh">
+                  <a class="link-small-160lh animate-in-up" href="tel:+918848806406">+91 88488 06406</a><br>
+                  <a class="link-small-160lh animate-in-up" href="https://wa.me/918848806406" target="_blank">WhatsApp</a>
+                </p>
+              </div>
+
+              <!-- Email & Social -->
+              <div class="col-12 col-md-4 col-lg-3 contact-data__item grid-item">
+                <p class="contact-data__title tagline-chapter animate-in-up">Connect</p>
+                <p class="contact-data__text small type-basic-160lh">
+                  <a class="link-small-160lh animate-in-up" href="mailto:info@bigmonks.com">info@bigmonks.com</a><br>
+                  <a class="link-small-160lh animate-in-up" href="https://www.bigmonks.com" target="_blank">www.bigmonks.com</a>
+                </p>
+                <div style="margin-top: 15px; display: flex; gap: 10px;">
+                  <a class="link-small-160lh animate-in-up" href="https://www.linkedin.com/company/bigmonks-technologies01" target="_blank" style="font-size: 20px;">
+                    <i class="ph ph-linkedin-logo"></i>
+                  </a>
+                  <a class="link-small-160lh animate-in-up" href="https://x.com/BigmonksTech" target="_blank" style="font-size: 20px;">
+                    <i class="ph ph-x-logo"></i>
+                  </a>
+                  <a class="link-small-160lh animate-in-up" href="https://www.instagram.com/bigmonkstechnologies" target="_blank" style="font-size: 20px;">
+                    <i class="ph ph-instagram-logo"></i>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Contact Data End -->
+
+        <!-- Footer Bottom -->
+        <div class="content__block grid-block">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <div class="col-12">
+               <div class="footer__bottom d-flex flex-column flex-md-row justify-content-between align-items-center animate-in-up" style="padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.1);">
+                  <div class="d-flex flex-column flex-md-row align-items-center gap-3">
+                    <p class="small" style="opacity: 0.7; margin: 0;">© 2025 Bigmonks Technologies. All rights reserved.</p>
+                    <div class="d-flex gap-3">
+                      <a href="privacy-policy.html" target="_blank" class="small link-small-160lh" style="opacity: 0.7;">Privacy Policy</a>
+                      <span style="opacity: 0.7;">|</span>
+                      <a href="termsofservice.html" target="_blank" class="small link-small-160lh" style="opacity: 0.7;">Terms of Service</a>
+                    </div>
+                  </div>
+                  <p class="small" style="opacity: 0.7; margin: 0;">Crafted with <i class="ph-fill ph-heart" style="color: #ff4444;"></i> in Kerala</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Bottom End -->
+
+      </div>
+    </div>
+  </div>
+</footer>
+                  <!-- Footer End -->
+
+                </div>
+              </div>
+              <div class="col-12 col-xl-2"></div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact/Enrollment Section End -->
+
+    </main>
+    <!-- Page Content End -->
+
+    <!-- Bottom Background Images -->
+    <div class="bottom__background bottom-bg-02">
+      <div class="bottom-bg-02__02 animate-card-2">
+        <img src="img/backgrounds/1200x1553_bg04.webp" alt="Background">
+      </div>
+      <div class="bottom-bg-02__01 animate-card-2">
+        <img src="img/backgrounds/1200x1200_bg05.webp" alt="Background">
+      </div>
+    </div>
+
+    <!-- Mobile Menu Placeholder -->
+    <div class="header-offset"></div>
+
+    <!-- To Top Button -->
+    <a href="#0" id="to-top" class="btn btn-to-top slide-up">
+      <i class="ph ph-arrow-up"></i>
+    </a>
+
+    <!-- Load Scripts -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/app.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,1759 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Primary Title - SEO optimized -->
+  <title>Our Works & Clients | Bigmonks Technologies</title>
+
+  <!-- Enhanced Meta Description -->
+  <meta name="description"
+    content="Explore the portfolio of Bigmonks Technologies. Showcasing our successful custom web development, mobile applications, cloud deployments, and IT consulting projects for global clients.">
+
+  <!-- Comprehensive Keywords -->
+  <meta name="keywords"
+    content="Bigmonks portfolio, Bigmonks works, software projects Kerala, app development portfolio, web development showcases, client logo list, software case studies, Flutter projects, React websites">
+  <meta name="author" content="Bigmonks Technologies">
+
+  <!-- Viewport and Compatibility -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+  <!-- Favicon & Icons -->
+  <link rel="icon" href="img/favicon/favicon.ico?v=2" sizes="any">
+  <link rel="icon" href="img/favicon/icon.svg?v=2" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png?v=2">
+  <link rel="manifest" href="img/favicon/manifest.webmanifest">
+
+  <!-- Template Styles Start -->
+  <link rel="stylesheet" type="text/css" href="css/loaders/loader.css">
+  <link rel="stylesheet" type="text/css" href="css/plugins.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Template Styles End -->
+
+  <!-- Enhanced Browser Color -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#1E40AF">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1E40AF">
+
+  <!-- Preconnect to Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- WhatsApp Button Styles -->
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 30px;
+      right: 30px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 32px;
+      box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      animation: pulse-whatsapp 2s infinite;
+    }
+
+    .whatsapp-float:hover {
+      background-color: #128c7e;
+      transform: scale(1.1);
+      box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.4);
+      animation: none;
+    }
+
+    .whatsapp-tooltip {
+      position: absolute;
+      right: 70px;
+      background-color: #128c7e;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      white-space: nowrap;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      font-weight: 500;
+    }
+
+    .whatsapp-float:hover .whatsapp-tooltip {
+      opacity: 1;
+    }
+
+    @keyframes pulse-whatsapp {
+      0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+      }
+
+      70% {
+        box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+      }
+    }
+
+    /* Client Grid Styling */
+    .client-logo-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 40px 20px;
+      text-align: center;
+      transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    [color-scheme=light] .client-logo-card {
+      background: rgba(0, 0, 0, 0.02);
+      border-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .client-logo-card:hover {
+      transform: translateY(-8px);
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(99, 102, 241, 0.4);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    [color-scheme=light] .client-logo-card:hover {
+      background: rgba(0, 0, 0, 0.04);
+      border-color: rgba(30, 64, 175, 0.3);
+    }
+
+    .client-logo-card svg {
+      max-height: 50px;
+      width: auto;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+      opacity: 0.7;
+    }
+
+    .client-logo-card:hover svg {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+
+    .client-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text-color);
+    }
+
+    .client-desc {
+      font-size: 13px;
+      line-height: 1.5;
+      opacity: 0.6;
+    }
+
+    /* Inline client logo styles */
+    .logo-svg-path {
+      fill: currentColor;
+    }
+
+    /* Filter Buttons Styling */
+    .filter-buttons {
+      margin-top: 20px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      padding: 6px;
+      border-radius: 40px;
+      display: inline-flex;
+    }
+
+    [color-scheme=light] .filter-buttons {
+      background: rgba(0, 0, 0, 0.02);
+      border-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .btn-filter {
+      background: transparent;
+      border: none;
+      color: var(--t-medium);
+      padding: 10px 24px;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .btn-filter:hover {
+      color: var(--t-bright);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    [color-scheme=light] .btn-filter:hover {
+      background: rgba(0, 0, 0, 0.03);
+    }
+
+    .btn-filter.active {
+      background: #1E40AF;
+      color: #FFFFFF;
+      border-color: #3B82F6;
+      box-shadow: 0 4px 15px rgba(30, 64, 175, 0.4);
+    }
+
+    /* Cards filtering animation */
+    #works-showcase .cards__item {
+      overflow: visible !important;
+      transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    /* Fix top padding of works-showcase to clear fixed header since we removed hero section */
+    #works-showcase.inner-stack-bottom {
+      padding-top: 150px !important;
+    }
+    @media only screen and (max-width: 991px) {
+      #works-showcase.inner-stack-bottom {
+        padding-top: 120px !important;
+      }
+    }
+
+    /* Showcase Cards Premium Revamp */
+    #works-showcase .cards__card {
+      background: rgba(255, 255, 255, 0.015) !important;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.04) !important;
+      border-radius: 24px !important;
+      padding: 35px !important;
+      overflow: hidden;
+      position: relative;
+      transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), border-color 0.5s ease, box-shadow 0.5s ease;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15), 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    [color-scheme=light] #works-showcase .cards__card {
+      background: rgba(0, 0, 0, 0.01) !important;
+      border: 1px solid rgba(0, 0, 0, 0.05) !important;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.03), 0 2px 10px rgba(0, 0, 0, 0.01);
+    }
+
+    /* Inner Spotlight Radial Gradient Glow */
+    #works-showcase .cards__card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba(99, 102, 241, 0.07), transparent 80%);
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    [color-scheme=light] #works-showcase .cards__card::after {
+      background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba(30, 64, 175, 0.04), transparent 80%);
+    }
+
+    #works-showcase .cards__card:hover::after {
+      opacity: 1;
+    }
+
+    /* Outer Border Spotlight Gradient */
+    #works-showcase .cards__card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 24px;
+      padding: 1px;
+      background: radial-gradient(350px circle at var(--mouse-x) var(--mouse-y), rgba(99, 102, 241, 0.35), rgba(139, 92, 246, 0.1) 40%, transparent 80%);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+      z-index: 2;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    [color-scheme=light] #works-showcase .cards__card::before {
+      background: radial-gradient(350px circle at var(--mouse-x) var(--mouse-y), rgba(30, 64, 175, 0.25), rgba(59, 130, 246, 0.08) 40%, transparent 80%);
+    }
+
+    #works-showcase .cards__card:hover::before {
+      opacity: 1;
+    }
+
+    #works-showcase .cards__card:hover {
+      border-color: rgba(99, 102, 241, 0.25) !important;
+      box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.3), 
+        0 0 25px rgba(0, 0, 0, 0.15), 
+        0 0 30px rgba(99, 102, 241, 0.08);
+    }
+
+    [color-scheme=light] #works-showcase .cards__card:hover {
+      border-color: rgba(30, 64, 175, 0.2) !important;
+      box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.1), 
+        0 0 25px rgba(0, 0, 0, 0.05), 
+        0 0 30px rgba(30, 64, 175, 0.04);
+    }
+
+    #works-showcase .cards__descr {
+      z-index: 1;
+      position: relative;
+      margin-bottom: 25px;
+    }
+
+    #works-showcase .cards__title {
+      font-size: 28px !important;
+      font-weight: 700 !important;
+      margin-bottom: 12px !important;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--neutral-bright) !important;
+      transition: color 0.3s ease;
+    }
+
+
+
+    .card-arrow {
+      font-size: 22px;
+      opacity: 0;
+      transform: translate(-10px, 10px);
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+      color: #818cf8;
+      display: inline-block;
+    }
+
+    [color-scheme=light] .card-arrow {
+      color: #1e40af;
+    }
+
+    #works-showcase .cards__card:hover .card-arrow {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+
+    #works-showcase .cards__text {
+      font-size: 15px !important;
+      line-height: 1.6 !important;
+      opacity: 0.7;
+      margin-bottom: 20px;
+    }
+
+    /* Outcome Metric Badges */
+    .card-stats {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .stat-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--t-medium);
+      transition: all 0.3s ease;
+    }
+
+    [color-scheme=light] .stat-pill {
+      background: rgba(0, 0, 0, 0.02);
+      border-color: rgba(0, 0, 0, 0.05);
+    }
+
+
+
+    /* Tag Styling */
+    .tech-tag {
+      padding: 6px 14px !important;
+      border-radius: 30px !important;
+      font-size: 11px !important;
+      font-weight: 600 !important;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    .tech-tag:hover {
+      transform: translateY(-2px);
+    }
+
+    .tech-tag.tag-blue {
+      background: rgba(59, 130, 246, 0.06) !important;
+      color: #60a5fa !important;
+      border: 1px solid rgba(59, 130, 246, 0.12) !important;
+    }
+
+    [color-scheme=light] .tech-tag.tag-blue {
+      background: rgba(37, 99, 235, 0.05) !important;
+      color: #2563eb !important;
+      border: 1px solid rgba(37, 99, 235, 0.1) !important;
+    }
+
+    .tech-tag.tag-purple {
+      background: rgba(139, 92, 246, 0.06) !important;
+      color: #a78bfa !important;
+      border: 1px solid rgba(139, 92, 246, 0.12) !important;
+    }
+
+    [color-scheme=light] .tech-tag.tag-purple {
+      background: rgba(124, 58, 237, 0.05) !important;
+      color: #7c3aed !important;
+      border: 1px solid rgba(124, 58, 237, 0.1) !important;
+    }
+
+    .tech-tag.tag-green {
+      background: rgba(16, 185, 129, 0.06) !important;
+      color: #34d399 !important;
+      border: 1px solid rgba(16, 185, 129, 0.12) !important;
+    }
+
+    [color-scheme=light] .tech-tag.tag-green {
+      background: rgba(5, 150, 105, 0.05) !important;
+      color: #059669 !important;
+      border: 1px solid rgba(5, 150, 105, 0.1) !important;
+    }
+
+    .tech-tag.tag-orange {
+      background: rgba(245, 158, 11, 0.06) !important;
+      color: #fbbf24 !important;
+      border: 1px solid rgba(245, 158, 11, 0.12) !important;
+    }
+
+    [color-scheme=light] .tech-tag.tag-orange {
+      background: rgba(217, 119, 6, 0.05) !important;
+      color: #d97706 !important;
+      border: 1px solid rgba(217, 119, 6, 0.1) !important;
+    }
+
+    /* Device Mockup Styling */
+    .mockup-frame {
+      border-radius: 16px;
+      overflow: hidden;
+      background: #111;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+      margin-top: 25px;
+      position: relative;
+      z-index: 1;
+      transition: border-color 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .device-mockup {
+      max-width: 240px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      margin-top: auto !important;
+    }
+
+    .device-mockup .cards__image {
+      height: 480px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .device-mockup .cards__image img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+      object-position: top !important;
+    }
+
+    [color-scheme=light] .mockup-frame {
+      background: #fff;
+      border-color: rgba(0, 0, 0, 0.08);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    }
+
+    #works-showcase .cards__card:hover .mockup-frame {
+      border-color: rgba(99, 102, 241, 0.25);
+      box-shadow: 0 20px 45px rgba(99, 102, 241, 0.15), 0 10px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    [color-scheme=light] #works-showcase .cards__card:hover .mockup-frame {
+      border-color: rgba(30, 64, 175, 0.2);
+      box-shadow: 0 20px 45px rgba(30, 64, 175, 0.08), 0 10px 25px rgba(0, 0, 0, 0.06);
+    }
+
+    /* Browser Mockup Header */
+    .browser-header {
+      background: rgba(255, 255, 255, 0.04);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    [color-scheme=light] .browser-header {
+      background: rgba(0, 0, 0, 0.02);
+      border-bottom-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .browser-dots {
+      display: flex;
+      gap: 6px;
+    }
+
+    .browser-dots .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .dot-red { background: #ff5f56; }
+    .dot-yellow { background: #ffbd2e; }
+    .dot-green { background: #27c93f; }
+
+    .browser-address {
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 6px;
+      padding: 3px 20px;
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.45);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-grow: 1;
+      max-width: 260px;
+      margin: 0 auto;
+      font-family: var(--_font-default);
+      letter-spacing: 0.5px;
+      justify-content: center;
+    }
+
+    [color-scheme=light] .browser-address {
+      background: rgba(0, 0, 0, 0.05);
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    /* Terminal Mockup Header */
+    .terminal-header {
+      background: rgba(10, 10, 10, 0.8);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    [color-scheme=light] .terminal-header {
+      background: rgba(240, 240, 240, 0.8);
+      border-bottom-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .terminal-title {
+      font-size: 11px;
+      font-family: monospace;
+      color: rgba(255, 255, 255, 0.5);
+      margin: 0 auto 0 0;
+      letter-spacing: 0.5px;
+    }
+
+    [color-scheme=light] .terminal-title {
+      color: rgba(0, 0, 0, 0.6);
+    }
+
+    /* Device Mockup Header (Mobile app) */
+    .device-header {
+      background: rgba(255, 255, 255, 0.03);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 8px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 10px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    [color-scheme=light] .device-header {
+      background: rgba(0, 0, 0, 0.01);
+      border-bottom-color: rgba(0, 0, 0, 0.04);
+      color: rgba(0, 0, 0, 0.6);
+    }
+
+    .device-time {
+      font-weight: 600;
+      letter-spacing: 0.2px;
+    }
+
+    .device-speaker {
+      width: 45px;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 2px;
+    }
+
+    [color-scheme=light] .device-speaker {
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    .device-icons {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+
+    /* Image zoom and transitions within mockups */
+    #works-showcase .cards__image {
+      overflow: hidden;
+      z-index: 1;
+      position: relative;
+    }
+
+    #works-showcase .cards__image img {
+      transition: transform 1.2s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    #works-showcase .cards__card:hover .cards__image img {
+      transform: scale(1.04);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Loader Start -->
+  <div id="loader" class="loader">
+    <div class="loader__wrapper">
+      <div class="loader__content">
+        <div class="loader__count">
+          <span class="count__text">0</span>
+          <span class="count__percent">%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Loader End -->
+
+  <!-- Header Start -->
+  <header id="header" class="header d-flex justify-content-center loading__fade">
+    <!-- Navigation Menu Start -->
+    <div class="header__navigation d-flex justify-content-start">
+      <nav id="menu" class="menu">
+        <ul class="menu__list d-flex justify-content-start">
+          <li class="menu__item">
+            <a class="menu__link btn nav-link" href="index.html#home">
+              <span class="menu__caption">Home</span>
+              <i class="ph ph-squares-four"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn nav-link" href="index.html#about">
+              <span class="menu__caption">About Us</span>
+              <i class="ph ph-user"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn nav-link" href="index.html#services">
+              <span class="menu__caption">Services</span>
+              <i class="ph ph-sticker"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn nav-link" href="#works-showcase">
+              <span class="menu__caption">Our Works</span>
+              <i class="ph ph-briefcase"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn nav-link" href="growth-solutions.html">
+              <span class="menu__caption">Growth Solutions</span>
+              <i class="ph ph-trend-up"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn nav-link" href="index.html#resume">
+              <span class="menu__caption">Review</span>
+              <i class="ph ph-article"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn nav-link" href="index.html#contact">
+              <span class="menu__caption">Contact</span>
+              <i class="ph ph-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- Fixed Logo Start -->
+  <div class="logo loading__fade">
+    <a href="index.html" class="logo__link" style="display: block;">
+      <div class="logo-text" style="font-size: 30px;">bigmonks</div>
+      <div class="logo-subtext" style="font-size: 17px; text-align: right;">Technologies</div>
+    </a>
+  </div>
+  <!-- Fixed Logo End -->
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/918848806406?text=Hi%20Bigmonks%20Technologies!%20I'm%20interested%20in%20your%20services."
+    class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <i class="ph-fill ph-whatsapp-logo"></i>
+    <span class="whatsapp-tooltip">Chat with us</span>
+  </a>
+
+  <!-- Page Content Start -->
+  <main id="page-content" class="page-content">
+
+
+
+    <!-- Section - Works Showcase - Start -->
+    <section id="works-showcase" class="inner inner-stack-bottom no-padding-top portfolio">
+      <div class="inner__wrapper">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+
+            <div class="col-12 col-xl-2">
+              <div class="inner__name">
+                <div class="content__block name-block">
+                  <span class="section-name icon-right animate-in-up">
+                    <span class="section-name-caption">Case Studies</span>
+                    <i class="ph ph-arrow-down-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-xl-8">
+              <div class="inner__content">
+
+                <!-- Section Title -->
+                <div class="content__block section-grid-title">
+                  <div class="block__descr">
+                    <h2 class="reveal-type animate-in-up">Featured Client<br>Projects</h2>
+                  </div>
+                </div>
+
+                <!-- Portfolio Filter Buttons -->
+                <div class="content__block animate-in-up" style="margin: 30px 0 45px 0;">
+                  <div class="filter-buttons d-flex justify-content-start align-items-center gap-2 flex-wrap">
+                    <button class="btn-filter active" data-filter="all">All Projects</button>
+                    <button class="btn-filter" data-filter="web">Websites & Web Apps</button>
+                    <button class="btn-filter" data-filter="app">Mobile Applications</button>
+                  </div>
+                </div>
+
+                <!-- Showcase Cards Grid -->
+                <div class="content__block grid-block">
+                  <div class="container-fluid p-0">
+                    <div class="row gx-4 gy-5 align-items-stretch cards">
+
+                      <!-- Case Study 1 - Norbond Apparel -->
+                      <div class="col-12 col-md-6 cards__item grid-item animate-card-2" data-category="web">
+                        <div class="cards__card d-flex flex-column" style="height: 100%;">
+                          <div class="cards__descr">
+                            <h3 class="cards__title animate-in-up">
+                              <a href="https://norbondapparel.com/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                                <span>Norbond Apparel</span>
+                                <i class="ph ph-arrow-up-right card-arrow"></i>
+                              </a>
+                            </h3>
+                            <div class="card-stats animate-in-up">
+                              <span class="stat-pill"><i class="ph ph-shopping-bag"></i> E-Commerce</span>
+                              <span class="stat-pill"><i class="ph ph-globe"></i> Live Website</span>
+                            </div>
+                            <p class="cards__text type-basic-160lh animate-in-up">
+                              Modern e-commerce platform custom-tailored for high-end fashion and apparel. Built for fast transactions, smooth catalog navigation, and integrated online secure checkouts.
+                            </p>
+                            <div style="margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap;">
+                              <span class="tech-tag tag-blue">React</span>
+                              <span class="tech-tag tag-purple">HTML5</span>
+                              <span class="tech-tag tag-green">Tailwind CSS</span>
+                            </div>
+                          </div>
+                          <a href="https://norbondapparel.com/" target="_blank" rel="noopener noreferrer" class="mockup-frame browser-mockup animate-in-up" style="margin-top: auto; display: block; text-decoration: none;">
+                            <div class="browser-header">
+                              <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                              </div>
+                              <div class="browser-address">
+                                <i class="ph-fill ph-lock" style="font-size: 10px; color: #10B981; margin-right: 2px;"></i>
+                                norbondapparel.com
+                              </div>
+                            </div>
+                            <div class="cards__image">
+                              <img src="images/our clients/Norbond Apparel.png" alt="Norbond Apparel website mockup">
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!-- Case Study 2 - VKT Logistics -->
+                      <div class="col-12 col-md-6 cards__item grid-item animate-card-2" data-category="web">
+                        <div class="cards__card d-flex flex-column" style="height: 100%;">
+                          <div class="cards__descr">
+                            <h3 class="cards__title animate-in-up">
+                              <a href="https://vktlogistics.co.in/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                                <span>VKT Logistics</span>
+                                <i class="ph ph-arrow-up-right card-arrow"></i>
+                              </a>
+                            </h3>
+                            <div class="card-stats animate-in-up">
+                              <span class="stat-pill"><i class="ph ph-truck"></i> Cargo & Shipping</span>
+                              <span class="stat-pill"><i class="ph ph-path"></i> Fleet Management</span>
+                            </div>
+                            <p class="cards__text type-basic-160lh animate-in-up">
+                              National cargo, shipping, and third-party logistics platform providing real-time fleet operations, secure supply chain distributions, and warehousing solutions.
+                            </p>
+                            <div style="margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap;">
+                              <span class="tech-tag tag-blue">React</span>
+                              <span class="tech-tag tag-orange">HTML5</span>
+                              <span class="tech-tag tag-green">CSS3</span>
+                            </div>
+                          </div>
+                          <a href="https://vktlogistics.co.in/" target="_blank" rel="noopener noreferrer" class="mockup-frame browser-mockup animate-in-up" style="margin-top: auto; display: block; text-decoration: none;">
+                            <div class="browser-header">
+                              <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                              </div>
+                              <div class="browser-address">
+                                <i class="ph-fill ph-lock" style="font-size: 10px; color: #10B981; margin-right: 2px;"></i>
+                                vktlogistics.co.in
+                              </div>
+                            </div>
+                            <div class="cards__image">
+                              <img src="images/our clients/vkt.png" alt="VKT Logistics website mockup">
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!-- Case Study 3 - Jumbble Gifts -->
+                      <div class="col-12 col-md-6 cards__item grid-item animate-card-2" data-category="web">
+                        <div class="cards__card d-flex flex-column" style="height: 100%;">
+                          <div class="cards__descr">
+                            <h3 class="cards__title animate-in-up">
+                              <a href="https://jumbblegifts.com/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                                <span>Jumbble Gifts</span>
+                                <i class="ph ph-arrow-up-right card-arrow"></i>
+                              </a>
+                            </h3>
+                            <div class="card-stats animate-in-up">
+                              <span class="stat-pill"><i class="ph ph-gift"></i> Custom Gifts</span>
+                              <span class="stat-pill"><i class="ph ph-shopping-cart"></i> Retail Shop</span>
+                            </div>
+                            <p class="cards__text type-basic-160lh animate-in-up">
+                              Creative custom gifting platform providing personalized retail items, digital previews, and automated shipping workflows for events and retail shoppers.
+                            </p>
+                            <div style="margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap;">
+                              <span class="tech-tag tag-blue">React</span>
+                              <span class="tech-tag tag-purple">HTML5</span>
+                              <span class="tech-tag tag-green">Tailwind CSS</span>
+                            </div>
+                          </div>
+                          <a href="https://jumbblegifts.com/" target="_blank" rel="noopener noreferrer" class="mockup-frame browser-mockup animate-in-up" style="margin-top: auto; display: block; text-decoration: none;">
+                            <div class="browser-header">
+                              <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                              </div>
+                              <div class="browser-address">
+                                <i class="ph-fill ph-lock" style="font-size: 10px; color: #10B981; margin-right: 2px;"></i>
+                                jumbblegifts.com
+                              </div>
+                            </div>
+                            <div class="cards__image">
+                              <img src="images/our clients/Jumbble Gifts.png" alt="Jumbble Gifts website mockup">
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!-- Case Study 4 - Thylanium -->
+                      <div class="col-12 col-md-6 cards__item grid-item animate-card-2" data-category="web">
+                        <div class="cards__card d-flex flex-column" style="height: 100%;">
+                          <div class="cards__descr">
+                            <h3 class="cards__title animate-in-up">
+                              <a href="https://www.thylanium.com/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                                <span>Thylanium</span>
+                                <i class="ph ph-arrow-up-right card-arrow"></i>
+                              </a>
+                            </h3>
+                            <div class="card-stats animate-in-up">
+                              <span class="stat-pill"><i class="ph ph-flask"></i> Materials Science</span>
+                              <span class="stat-pill"><i class="ph ph-shield-check"></i> Secure Portal</span>
+                            </div>
+                            <p class="cards__text type-basic-160lh animate-in-up">
+                              Advanced chemical/metallic research and materials engineering solutions platform detailing proprietary technologies and enterprise chemical distributions.
+                            </p>
+                            <div style="margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap;">
+                              <span class="tech-tag tag-blue">React</span>
+                              <span class="tech-tag tag-purple">HTML5</span>
+                              <span class="tech-tag tag-green">CSS3</span>
+                            </div>
+                          </div>
+                          <a href="https://www.thylanium.com/" target="_blank" rel="noopener noreferrer" class="mockup-frame browser-mockup animate-in-up" style="margin-top: auto; display: block; text-decoration: none;">
+                            <div class="browser-header">
+                              <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                              </div>
+                              <div class="browser-address">
+                                <i class="ph-fill ph-lock" style="font-size: 10px; color: #10B981; margin-right: 2px;"></i>
+                                thylanium.com
+                              </div>
+                            </div>
+                            <div class="cards__image">
+                              <img src="images/our clients/Thylanium.png" alt="Thylanium website mockup">
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!-- Case Study 5 - Make My Curry -->
+                      <div class="col-12 col-md-6 cards__item grid-item animate-card-2" data-category="app">
+                        <div class="cards__card d-flex flex-column" style="height: 100%;">
+                          <div class="cards__descr">
+
+                             <h3 class="cards__title animate-in-up">
+                              <a href="https://humblehearts.org/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                                <span>Make My Curry</span>
+                                <i class="ph ph-arrow-up-right card-arrow"></i>
+                              </a>
+                            </h3>
+                            <!-- <h3 class="cards__title animate-in-up">
+                              <span>Make My Curry</span>
+                              <i class="ph ph-arrow-up-right card-arrow"></i>
+                            </h3> -->
+                            <div class="card-stats animate-in-up">
+                              <span class="stat-pill"><i class="ph-fill ph-star" style="color: #fbbf24;"></i> 4.9 App Store</span>
+                              <span class="stat-pill"><i class="ph ph-download-simple"></i> 10k+ Installs</span>
+                            </div>
+                            <p class="cards__text type-basic-160lh animate-in-up">
+                              Feature-rich mobile grocery and food delivery application with instant ordering systems,
+                              real-time tracking dashboards, and seamless Stripe/Razorpay portal gateways.
+                            </p>
+                            <div style="margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap;">
+                              <span class="tech-tag tag-blue">Flutter</span>
+                              <span class="tech-tag tag-purple">Node.js</span>
+                              <span class="tech-tag tag-green">Mongo DB</span>
+                            </div>
+                          </div>
+                          <div class="mockup-frame device-mockup animate-in-up">
+                            <div class="device-header">
+                              <span class="device-time">9:41</span>
+                              <span class="device-speaker"></span>
+                              <span class="device-icons">
+                                <i class="ph-fill ph-cell-signal-high"></i>
+                                <i class="ph-fill ph-wifi-high"></i>
+                                <i class="ph-fill ph-battery-full"></i>
+                              </span>
+                            </div>
+                            <div class="cards__image">
+                              <img src="images/our clients/New Make My Curry Pink.png" alt="Make My Curry app mockup">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Case Study 6 - Norbond Enterprise -->
+                      <div class="col-12 col-md-6 cards__item grid-item animate-card-2" data-category="web">
+                        <div class="cards__card d-flex flex-column" style="height: 100%;">
+                          <div class="cards__descr">
+                            <h3 class="cards__title animate-in-up">
+                              <a href="https://norbondent.com/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                                <span>Norbond Enterprise</span>
+                                <i class="ph ph-arrow-up-right card-arrow"></i>
+                              </a>
+                            </h3>
+                            <div class="card-stats animate-in-up">
+                              <span class="stat-pill"><i class="ph ph-briefcase"></i> B2B Portal</span>
+                              <span class="stat-pill"><i class="ph ph-factory"></i> Industrial Supply</span>
+                            </div>
+                            <p class="cards__text type-basic-160lh animate-in-up">
+                              Global trade and enterprise operations portal managing B2B industrial fabric supplies, supply chains, and bulk catalog distribution pipelines.
+                            </p>
+                            <div style="margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap;">
+                              <span class="tech-tag tag-blue">React</span>
+                              <span class="tech-tag tag-purple">HTML5</span>
+                              <span class="tech-tag tag-green">Tailwind CSS</span>
+                            </div>
+                          </div>
+                          <a href="https://norbondent.com/" target="_blank" rel="noopener noreferrer" class="mockup-frame browser-mockup animate-in-up" style="margin-top: auto; display: block; text-decoration: none;">
+                            <div class="browser-header">
+                              <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                              </div>
+                              <div class="browser-address">
+                                <i class="ph-fill ph-lock" style="font-size: 10px; color: #10B981; margin-right: 2px;"></i>
+                                norbondent.com
+                              </div>
+                            </div>
+                            <div class="cards__image">
+                              <img src="images/our clients/Norbond Enterprise.png" alt="Norbond Enterprise website mockup">
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!-- Case Study 7 - Birkenor -->
+                      <div class="col-12 col-md-6 cards__item grid-item animate-card-2" data-category="web">
+                        <div class="cards__card d-flex flex-column" style="height: 100%;">
+                          <div class="cards__descr">
+                            <h3 class="cards__title animate-in-up">
+                              <a href="https://birkenor.com/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                                <span>Birkenor</span>
+                                <i class="ph ph-arrow-up-right card-arrow"></i>
+                              </a>
+                            </h3>
+                            <div class="card-stats animate-in-up">
+                              <span class="stat-pill"><i class="ph ph-palette"></i> Design Agency</span>
+                              <span class="stat-pill"><i class="ph ph-terminal"></i> Tech Consulting</span>
+                            </div>
+                            <p class="cards__text type-basic-160lh animate-in-up">
+                              Sleek minimalist portfolio and digital portal for premium architectural design and tech consulting firm, built with responsive layouts and fluid scroll animations.
+                            </p>
+                            <div style="margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap;">
+                              <span class="tech-tag tag-blue">React</span>
+                              <span class="tech-tag tag-purple">HTML5</span>
+                              <span class="tech-tag tag-green">GSAP</span>
+                            </div>
+                          </div>
+                          <a href="https://birkenor.com/" target="_blank" rel="noopener noreferrer" class="mockup-frame browser-mockup animate-in-up" style="margin-top: auto; display: block; text-decoration: none;">
+                            <div class="browser-header">
+                              <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                              </div>
+                              <div class="browser-address">
+                                <i class="ph-fill ph-lock" style="font-size: 10px; color: #10B981; margin-right: 2px;"></i>
+                                birkenor.com
+                              </div>
+                            </div>
+                            <div class="cards__image">
+                              <img src="images/our clients/Birkenor.png" alt="Birkenor website mockup">
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!-- Case Study 8 - Trilok Industries -->
+                      <div class="col-12 col-md-6 cards__item grid-item animate-card-2" data-category="web">
+                        <div class="cards__card d-flex flex-column" style="height: 100%;">
+                          <div class="cards__descr">
+                            <h3 class="cards__title animate-in-up">
+                              <a href="https://trilokindustries.in/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                                <span>Trilok Industries</span>
+                                <i class="ph ph-arrow-up-right card-arrow"></i>
+                              </a>
+                            </h3>
+                            <div class="card-stats animate-in-up">
+                              <span class="stat-pill"><i class="ph ph-nut"></i> Heavy Industry</span>
+                              <span class="stat-pill"><i class="ph ph-gear"></i> Metal Engineering</span>
+                            </div>
+                            <p class="cards__text type-basic-160lh animate-in-up">
+                              Comprehensive industrial website for heavy manufacturing, metal engineering, and steel fabrication works, highlighting scale projects and technical services.
+                            </p>
+                            <div style="margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap;">
+                              <span class="tech-tag tag-blue">React</span>
+                              <span class="tech-tag tag-purple">HTML5</span>
+                              <span class="tech-tag tag-green">CSS3</span>
+                            </div>
+                          </div>
+                          <a href="https://trilokindustries.in/" target="_blank" rel="noopener noreferrer" class="mockup-frame browser-mockup animate-in-up" style="margin-top: auto; display: block; text-decoration: none;">
+                            <div class="browser-header">
+                              <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                              </div>
+                              <div class="browser-address">
+                                <i class="ph-fill ph-lock" style="font-size: 10px; color: #10B981; margin-right: 2px;"></i>
+                                trilokindustries.in
+                              </div>
+                            </div>
+                            <div class="cards__image">
+                              <img src="img/works/trilok_industries.png" alt="Trilok Industries website mockup">
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!-- Case Study 9 - Beanbagss UAE -->
+                      <div class="col-12 col-md-6 cards__item grid-item animate-card-2" data-category="web">
+                        <div class="cards__card d-flex flex-column" style="height: 100%;">
+                          <div class="cards__descr">
+                            <h3 class="cards__title animate-in-up">
+                              <a href="https://www.beanbagss.ae/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                                <span>Beanbagss UAE</span>
+                                <i class="ph ph-arrow-up-right card-arrow"></i>
+                              </a>
+                            </h3>
+                            <div class="card-stats animate-in-up">
+                              <span class="stat-pill"><i class="ph ph-couch"></i> Home Furnishing</span>
+                              <span class="stat-pill"><i class="ph ph-credit-card"></i> UAE Retail</span>
+                            </div>
+                            <p class="cards__text type-basic-160lh animate-in-up">
+                              Vibrant home furnishing e-commerce shop specializing in premium high-comfort beanbags across the Middle East. Featuring automated payment gateway systems.
+                            </p>
+                            <div style="margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap;">
+                              <span class="tech-tag tag-blue">React</span>
+                              <span class="tech-tag tag-purple">HTML5</span>
+                              <span class="tech-tag tag-green">Tailwind CSS</span>
+                            </div>
+                          </div>
+                          <a href="https://www.beanbagss.ae/" target="_blank" rel="noopener noreferrer" class="mockup-frame browser-mockup animate-in-up" style="margin-top: auto; display: block; text-decoration: none;">
+                            <div class="browser-header">
+                              <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                              </div>
+                              <div class="browser-address">
+                                <i class="ph-fill ph-lock" style="font-size: 10px; color: #10B981; margin-right: 2px;"></i>
+                                beanbagss.ae
+                              </div>
+                            </div>
+                            <div class="cards__image">
+                              <img src="img/works/beanbagss.png" alt="Beanbagss UAE website mockup">
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!-- Case Study 10 - Cardamom Plantation -->
+                      <div class="col-12 col-md-6 cards__item grid-item animate-card-2" data-category="web">
+                        <div class="cards__card d-flex flex-column" style="height: 100%;">
+                          <div class="cards__descr">
+                            <h3 class="cards__title animate-in-up">
+                              <a href="https://cardamomplantation.com/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                                <span>Cardamom Plantation</span>
+                                <i class="ph ph-arrow-up-right card-arrow"></i>
+                              </a>
+                            </h3>
+                            <div class="card-stats animate-in-up">
+                              <span class="stat-pill"><i class="ph ph-tree"></i> Eco-Tourism</span>
+                              <span class="stat-pill"><i class="ph ph-compass"></i> Spice Farming</span>
+                            </div>
+                            <p class="cards__text type-basic-160lh animate-in-up">
+                              Eco-tourism estate and organic agriculture plantation portal showcasing spice farming, forest cottages, online bookings, and nature tours in Kerala.
+                            </p>
+                            <div style="margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap;">
+                              <span class="tech-tag tag-green">WordPress</span>
+                              <span class="tech-tag tag-blue">HTML5</span>
+                              <span class="tech-tag tag-orange">Custom CSS</span>
+                            </div>
+                          </div>
+                          <a href="https://cardamomplantation.com/" target="_blank" rel="noopener noreferrer" class="mockup-frame browser-mockup animate-in-up" style="margin-top: auto; display: block; text-decoration: none;">
+                            <div class="browser-header">
+                              <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                              </div>
+                              <div class="browser-address">
+                                <i class="ph-fill ph-lock" style="font-size: 10px; color: #10B981; margin-right: 2px;"></i>
+                                cardamomplantation.com
+                              </div>
+                            </div>
+                            <div class="cards__image">
+                              <img src="images/our clients/Cardamom Plantation.png" alt="Cardamom Plantation website mockup">
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!-- Case Study 11 - Humble Hearts -->
+                      <div class="col-12 col-md-6 cards__item grid-item animate-card-2" data-category="app">
+                        <div class="cards__card d-flex flex-column" style="height: 100%;">
+                          <div class="cards__descr">
+                            <h3 class="cards__title animate-in-up">
+                              <a href="https://humblehearts.org/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                                <span>Humble Hearts</span>
+                                <i class="ph ph-arrow-up-right card-arrow"></i>
+                              </a>
+                            </h3>
+                            <div class="card-stats animate-in-up">
+                              <span class="stat-pill"><i class="ph ph-heart"></i> NGO Portal</span>
+                              <span class="stat-pill"><i class="ph ph-hand-heart"></i> Charity App</span>
+                            </div>
+                            <p class="cards__text type-basic-160lh animate-in-up">
+                              A compassionate non-profit foundation and community portal mobile application dedicated to local charity work, social rehabilitation, and providing humanitarian aid.
+                            </p>
+                            <div style="margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap;">
+                              <span class="tech-tag tag-blue">Flutter</span>
+                              <span class="tech-tag tag-purple">Dart</span>
+                              <span class="tech-tag tag-green">Firebase</span>
+                            </div>
+                          </div>
+                          <div class="mockup-frame device-mockup animate-in-up">
+                            <div class="device-header">
+                              <span class="device-time">9:41</span>
+                              <span class="device-speaker"></span>
+                              <span class="device-icons">
+                                <i class="ph-fill ph-cell-signal-high"></i>
+                                <i class="ph-fill ph-wifi-high"></i>
+                                <i class="ph-fill ph-battery-full"></i>
+                              </span>
+                            </div>
+                            <div class="cards__image">
+                              <img src="images/our clients/humble hearts.png" alt="Humble Hearts app mockup">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Case Study 12 - Pesito -->
+                      <div class="col-12 col-md-6 cards__item grid-item animate-card-2" data-category="app">
+                        <div class="cards__card d-flex flex-column" style="height: 100%;">
+                          <div class="cards__descr">
+                            <h3 class="cards__title animate-in-up">
+                              <a href="https://pesito.online/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                                <span>Pesito</span>
+                                <i class="ph ph-arrow-up-right card-arrow"></i>
+                              </a>
+                            </h3>
+                            <div class="card-stats animate-in-up">
+                              <span class="stat-pill"><i class="ph ph-shopping-cart"></i> E-Commerce</span>
+                              <span class="stat-pill"><i class="ph ph-truck"></i> Food Delivery</span>
+                            </div>
+                            <p class="cards__text type-basic-160lh animate-in-up">
+                              On-demand food delivery and local e-commerce mobile application offering real-time restaurant menu tracking, secure online payments, and local delivery agent routing.
+                            </p>
+                            <div style="margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap;">
+                              <span class="tech-tag tag-blue">Flutter</span>
+                              <span class="tech-tag tag-purple">Dart</span>
+                              <span class="tech-tag tag-green">NodeJS</span>
+                            </div>
+                          </div>
+                          <div class="mockup-frame device-mockup animate-in-up">
+                            <div class="device-header">
+                              <span class="device-time">9:41</span>
+                              <span class="device-speaker"></span>
+                              <span class="device-icons">
+                                <i class="ph-fill ph-cell-signal-high"></i>
+                                <i class="ph-fill ph-wifi-high"></i>
+                                <i class="ph-fill ph-battery-full"></i>
+                              </span>
+                            </div>
+                            <div class="cards__image">
+                              <img src="images/our clients/pesito.png" alt="Pesito e-commerce app mockup">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-12 col-xl-2"></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section - Works Showcase - End -->
+
+    <!-- Section - Clients Grid - Start -->
+    <section id="clients-showcase" class="inner inner-grid-bottom services">
+      <div class="inner__wrapper">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+
+            <div class="col-12 col-xl-2">
+              <div class="inner__name">
+                <div class="content__block name-block">
+                  <span class="section-name icon-right animate-in-up">
+                    <span class="section-name-caption">Partners</span>
+                    <i class="ph ph-arrow-down-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-xl-8">
+              <div class="inner__content">
+
+                <!-- Section Title -->
+                <div class="content__block section-grid-title">
+                  <div class="block__descr">
+                    <h2 class="reveal-type animate-in-up">Companies Who<br>Trust Us</h2>
+                  </div>
+                </div>
+
+                <!-- Clients Grid Container -->
+                <div class="content__block grid-block">
+                  <div class="container-fluid p-0">
+                    <div class="row g-3 align-items-stretch">
+
+                      <!-- Client Logo 1 - Norbond Apparel -->
+                      <div class="col-12 col-sm-6 col-md-3 grid-item animate-card-3">
+                        <div class="client-logo-card">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="currentColor">
+                            <!-- Geometric N pattern representing enterprise fabrics -->
+                            <polygon points="20,15 32,15 45,35 33,35" fill="#6366F1" />
+                            <polygon points="33,25 45,25 32,45 20,45" fill="#8B5CF6" />
+                            <text x="60" y="38" font-family="'Inter', sans-serif" font-size="20" font-weight="800"
+                              class="logo-svg-path">Norbond</text>
+                          </svg>
+                          <h4 class="client-title">Norbond Apparel</h4>
+                          <p class="client-desc">Modern custom fashion e-commerce & digital retail portal</p>
+                        </div>
+                      </div>
+
+                      <!-- Client Logo 2 - VKT Logistics -->
+                      <div class="col-12 col-sm-6 col-md-3 grid-item animate-card-3">
+                        <div class="client-logo-card">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="currentColor">
+                            <!-- Cargo container/arrow representing logistics -->
+                            <polygon points="15,28 30,15 45,28 30,41" fill="#3B82F6" />
+                            <polyline points="22,28 30,20 38,28" fill="none" stroke="#FFF" stroke-width="2.5" />
+                            <line x1="30" y1="20" x2="30" y2="35" stroke="#FFF" stroke-width="2.5" />
+                            <text x="60" y="38" font-family="'Inter', sans-serif" font-size="20" font-weight="800"
+                              class="logo-svg-path">VKT Logistics</text>
+                          </svg>
+                          <h4 class="client-title">VKT Logistics</h4>
+                          <p class="client-desc">National cargo shipping, fleet routing, and 3PL supply chain</p>
+                        </div>
+                      </div>
+
+                      <!-- Client Logo 3 - Jumbble Gifts -->
+                      <div class="col-12 col-sm-6 col-md-3 grid-item animate-card-3">
+                        <div class="client-logo-card">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="currentColor">
+                            <!-- Gift box ribbon representation -->
+                            <rect x="20" y="22" width="26" height="26" rx="5" fill="#F59E0B" />
+                            <line x1="33" y1="22" x2="33" y2="48" stroke="#FFF" stroke-width="3" />
+                            <line x1="20" y1="35" x2="46" y2="35" stroke="#FFF" stroke-width="3" />
+                            <path d="M27,22 C27,17 33,17 33,22 C33,17 39,17 39,22" fill="none" stroke="#FFF" stroke-width="3" />
+                            <text x="62" y="38" font-family="'Inter', sans-serif" font-size="20" font-weight="800"
+                              class="logo-svg-path">Jumbble</text>
+                          </svg>
+                          <h4 class="client-title">Jumbble Gifts</h4>
+                          <p class="client-desc">Creative customized gifting retail store and e-commerce portal</p>
+                        </div>
+                      </div>
+
+                      <!-- Client Logo 4 - Thylanium -->
+                      <div class="col-12 col-sm-6 col-md-3 grid-item animate-card-3">
+                        <div class="client-logo-card">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="currentColor">
+                            <!-- Interlinked ellipses representing chemical bonding -->
+                            <ellipse cx="30" cy="30" rx="16" ry="6" fill="none" stroke="#8B5CF6" stroke-width="3" transform="rotate(30, 30, 30)" />
+                            <ellipse cx="30" cy="30" rx="16" ry="6" fill="none" stroke="#8B5CF6" stroke-width="3" transform="rotate(-30, 30, 30)" />
+                            <circle cx="30" cy="30" r="4" fill="#1E293B" />
+                            <text x="62" y="38" font-family="'Inter', sans-serif" font-size="20" font-weight="800"
+                              class="logo-svg-path">Thylanium</text>
+                          </svg>
+                          <h4 class="client-title">Thylanium</h4>
+                          <p class="client-desc">Advanced materials science and chemical enterprise solutions</p>
+                        </div>
+                      </div>
+
+                      <!-- Client Logo 5 - Make My Curry -->
+                      <div class="col-12 col-sm-6 col-md-3 grid-item animate-card-3">
+                        <div class="client-logo-card">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="currentColor">
+                            <!-- Chef hat representing gourmet food -->
+                            <path d="M32,15 C37,15 41,19 41,24 C41,27 39,30 37,32 C38,34 39,36 39,38 C39,43 35,47 30,47 L20,47 C15,47 11,43 11,38 C11,36 12,34 13,32 C11,30 9,27 9,24 C9,19 13,15 18,15 Z" fill="#F97316" />
+                            <rect x="15" y="42" width="20" height="5" fill="#1E293B" rx="1" />
+                            <text x="62" y="38" font-family="'Inter', sans-serif" font-size="18" font-weight="500"
+                              class="logo-svg-path">Make My Curry</text>
+                          </svg>
+                          <h4 class="client-title" style="font-weight: 500;">Make My Curry</h4>
+                          <p class="client-desc">On-demand gourmet food delivery application and ordering systems</p>
+                        </div>
+                      </div>
+
+                      <!-- Client Logo 6 - Norbond Enterprise -->
+                      <div class="col-12 col-sm-6 col-md-3 grid-item animate-card-3">
+                        <div class="client-logo-card">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="currentColor">
+                            <!-- Interconnected nodes representing network -->
+                            <circle cx="20" cy="30" r="5" fill="#8B5CF6" />
+                            <circle cx="45" cy="18" r="5" fill="#6366F1" />
+                            <circle cx="45" cy="42" r="5" fill="#6366F1" />
+                            <line x1="20" y1="30" x2="45" y2="18" stroke="#8B5CF6" stroke-width="2.5" />
+                            <line x1="20" y1="30" x2="45" y2="42" stroke="#8B5CF6" stroke-width="2.5" />
+                            <line x1="45" y1="18" x2="45" y2="42" stroke="#6366F1" stroke-width="2.5" />
+                            <text x="62" y="38" font-family="'Inter', sans-serif" font-size="18" font-weight="800"
+                              class="logo-svg-path">Norbond Ent.</text>
+                          </svg>
+                          <h4 class="client-title">Norbond Enterprise</h4>
+                          <p class="client-desc">B2B industrial trade supply chain & distribution portal</p>
+                        </div>
+                      </div>
+
+                      <!-- Client Logo 7 - Birkenor -->
+                      <div class="col-12 col-sm-6 col-md-3 grid-item animate-card-3">
+                        <div class="client-logo-card">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="currentColor">
+                            <!-- Minimalist B design -->
+                            <circle cx="30" cy="30" r="16" fill="none" stroke="#6366F1" stroke-width="4" />
+                            <line x1="30" y1="14" x2="30" y2="46" stroke="#6366F1" stroke-width="4" />
+                            <text x="62" y="38" font-family="'Inter', sans-serif" font-size="20" font-weight="800"
+                              class="logo-svg-path">Birkenor</text>
+                          </svg>
+                          <h4 class="client-title">Birkenor</h4>
+                          <p class="client-desc">Minimalist portfolio for digital design agency & consultancy</p>
+                        </div>
+                      </div>
+
+                      <!-- Client Logo 8 - Trilok Industries -->
+                      <div class="col-12 col-sm-6 col-md-3 grid-item animate-card-3">
+                        <div class="client-logo-card">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="currentColor">
+                            <!-- Industrial gear/cog representation -->
+                            <circle cx="30" cy="30" r="10" fill="none" stroke="#94A3B8" stroke-width="5" />
+                            <path d="M30,12 L30,16 M30,44 L30,48 M12,30 L16,30 M44,30 L48,30 M17,17 L20,20 M40,40 L43,43 M17,43 L20,40 M40,20 L43,17" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" />
+                            <text x="62" y="38" font-family="'Inter', sans-serif" font-size="20" font-weight="800"
+                              class="logo-svg-path">Trilok</text>
+                          </svg>
+                          <h4 class="client-title">Trilok Industries</h4>
+                          <p class="client-desc">Heavy industrial manufacturing and steel fabrication portal</p>
+                        </div>
+                      </div>
+
+                      <!-- Client Logo 9 - Beanbagss UAE -->
+                      <div class="col-12 col-sm-6 col-md-3 grid-item animate-card-3">
+                        <div class="client-logo-card">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="currentColor">
+                            <!-- Soft beanbag cushion curve -->
+                            <path d="M15,35 C15,22 25,18 35,18 C45,18 55,22 55,35 C55,43 45,45 35,45 C25,45 15,43 15,35 Z" fill="#3B82F6" />
+                            <path d="M22,35 C22,28 28,26 35,26 C42,26 48,28 48,35" fill="none" stroke="#FFF" stroke-width="2" />
+                            <text x="65" y="38" font-family="'Inter', sans-serif" font-size="20" font-weight="800"
+                              class="logo-svg-path">Beanbagss</text>
+                          </svg>
+                          <h4 class="client-title">Beanbagss UAE</h4>
+                          <p class="client-desc">Premium home interior beanbags e-commerce retail</p>
+                        </div>
+                      </div>
+
+                      <!-- Client Logo 10 - Cardamom Plantation -->
+                      <div class="col-12 col-sm-6 col-md-3 grid-item animate-card-3">
+                        <div class="client-logo-card">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="currentColor">
+                            <!-- Two leaves representing cardamom spice -->
+                            <path d="M25,35 C15,35 15,20 28,15 C28,15 28,28 25,35 Z" fill="#10B981" />
+                            <path d="M30,38 C22,42 20,30 35,22 C35,22 32,34 30,38 Z" fill="#059669" />
+                            <text x="62" y="38" font-family="'Inter', sans-serif" font-size="20" font-weight="800"
+                              class="logo-svg-path">Cardamom</text>
+                          </svg>
+                          <h4 class="client-title">Cardamom Plantation</h4>
+                          <p class="client-desc">Eco-tourism spice resort and agricultural plantation</p>
+                        </div>
+                      </div>
+
+                      <!-- Client Logo 11 - Humble Hearts -->
+                      <div class="col-12 col-sm-6 col-md-3 grid-item animate-card-3">
+                        <div class="client-logo-card">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" fill="currentColor">
+                            <!-- NGO Hearts shape representing community care -->
+                            <path d="M26,22 C22,17 14,17 14,24 C14,32 26,41 26,41 C26,41 38,32 38,24 C38,17 30,17 26,22 Z" fill="#EF4444" />
+                            <path d="M35,27 C32.5,23.5 27,23.5 27,29 C27,35 35,42 35,42 C35,42 43,35 43,29 C43,23.5 37.5,23.5 35,27 Z" fill="#F472B6" opacity="0.8" />
+                            <text x="56" y="38" font-family="'Inter', sans-serif" font-size="18" font-weight="800"
+                              class="logo-svg-path">Humble Hearts</text>
+                          </svg>
+                          <h4 class="client-title">Humble Hearts</h4>
+                          <p class="client-desc">Non-profit charity foundation and mobile community portal</p>
+                        </div>
+                      </div>
+
+                      <!-- Client Logo 12 - Pesito -->
+                      <div class="col-12 col-sm-6 col-md-3 grid-item animate-card-3">
+                        <div class="client-logo-card">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="currentColor">
+                            <!-- High-speed basket representing e-commerce -->
+                            <rect x="18" y="24" width="28" height="18" rx="4" fill="#EC4899" />
+                            <path d="M22,24 L32,14 L42,24" fill="none" stroke="#EC4899" stroke-width="3" stroke-linecap="round" />
+                            <circle cx="25" cy="47" r="3.5" fill="#1E293B" />
+                            <circle cx="39" cy="47" r="3.5" fill="#1E293B" />
+                            <text x="62" y="38" font-family="'Inter', sans-serif" font-size="20" font-weight="800"
+                              class="logo-svg-path">Pesito</text>
+                          </svg>
+                          <h4 class="client-title">Pesito</h4>
+                          <p class="client-desc">On-demand food delivery and local e-commerce platform</p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-12 col-xl-2"></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section - Clients Grid - End -->
+
+  </main>
+  <!-- Page Content End -->
+
+  <!-- Footer Start -->
+  <footer class="footer" style="padding-top: 80px;">
+    <div class="container-fluid p-0">
+      <div class="row g-0">
+        <div class="col-12 col-xl-2"></div>
+        <div class="col-12 col-xl-8">
+          <div class="inner__content">
+
+            <!-- Contact Link -->
+            <div class="content__block pre-grid-items">
+              <div class="footer__link d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                <div class="footer__text reveal-type animate-in-up">Have a project?<br>Let's discuss!</div>
+                <div class="footer__btn animate-in-up">
+                  <a href="index.html#contact" class="btn btn-circle-icon hover-circle">
+                    <em></em>
+                    <i class="ph-light ph-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="footer__divider animate-in-up" style="margin: 40px 0;"></div>
+            </div>
+
+            <!-- Contact Data -->
+            <div class="content__block grid-block">
+              <div class="container-fluid p-0 contact-data">
+                <div class="row g-0">
+
+                  <!-- Logo -->
+                  <div class="col-12 col-lg-3 contact-data__item grid-item">
+                    <a href="index.html" class="logo__link" style="display: block;">
+                      <div class="logo-text" style="font-size: 30px;">bigmonks</div>
+                    </a>
+                    <p class="contact-data__text small type-basic-160lh animate-in-up"
+                      style="margin-top: 15px; opacity: 0.8;">
+                      Transforming ideas into digital reality with innovative technology solutions.
+                    </p>
+                  </div>
+
+                  <!-- Location -->
+                  <div class="col-12 col-md-4 col-lg-3 contact-data__item grid-item">
+                    <p class="contact-data__title tagline-chapter animate-in-up">Location</p>
+                    <p class="contact-data__text small type-basic-160lh">
+                      <a class="link-small-160lh animate-in-up"
+                        href="https://maps.google.com/?q=Kakkanad,Ernakulam,Kerala" target="_blank">
+                        Kakkanad, Ernakulam<br>Kerala - 682037<br>India
+                      </a>
+                    </p>
+                  </div>
+
+                  <!-- Phone -->
+                  <div class="col-12 col-md-4 col-lg-3 contact-data__item grid-item">
+                    <p class="contact-data__title tagline-chapter animate-in-up">Contact</p>
+                    <p class="contact-data__text small type-basic-160lh">
+                      <a class="link-small-160lh animate-in-up" href="tel:+918848806406">+91 88488 06406</a><br>
+                      <a class="link-small-160lh animate-in-up" href="https://wa.me/918848806406"
+                        target="_blank">WhatsApp</a>
+                    </p>
+                  </div>
+
+                  <!-- Email & Social -->
+                  <div class="col-12 col-md-4 col-lg-3 contact-data__item grid-item">
+                    <p class="contact-data__title tagline-chapter animate-in-up">Connect</p>
+                    <p class="contact-data__text small type-basic-160lh">
+                      <a class="link-small-160lh animate-in-up"
+                        href="mailto:info@bigmonks.com">info@bigmonks.com</a><br>
+                      <a class="link-small-160lh animate-in-up" href="https://www.bigmonks.com"
+                        target="_blank">www.bigmonks.com</a>
+                    </p>
+                    <div style="margin-top: 15px; display: flex; gap: 10px;">
+                      <a class="link-small-160lh animate-in-up"
+                        href="https://www.linkedin.com/company/bigmonks-technologies01" target="_blank"
+                        style="font-size: 20px;">
+                        <i class="ph ph-linkedin-logo"></i>
+                      </a>
+                      <a class="link-small-160lh animate-in-up" href="https://x.com/BigmonksTech" target="_blank"
+                        style="font-size: 20px;">
+                        <i class="ph ph-x-logo"></i>
+                      </a>
+                      <a class="link-small-160lh animate-in-up" href="https://www.instagram.com/bigmonks_technologies"
+                        target="_blank" style="font-size: 20px;">
+                        <i class="ph ph-instagram-logo"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="content__block grid-block">
+              <div class="container-fluid p-0">
+                <div class="row g-0">
+                  <div class="col-12">
+                    <div
+                      class="footer__bottom d-flex flex-column flex-md-row justify-content-between align-items-center animate-in-up"
+                      style="padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 40px;">
+                      <div class="d-flex flex-column flex-md-row align-items-center gap-3">
+                        <p class="small" style="opacity: 0.7; margin: 0;">© 2025 Bigmonks Technologies. All rights
+                          reserved.</p>
+                        <div class="d-flex gap-3">
+                          <a href="privacy-policy.html" target="_blank" class="small link-small-160lh"
+                            style="opacity: 0.7;">Privacy Policy</a>
+                          <span style="opacity: 0.7;">|</span>
+                          <a href="termsofservice.html" target="_blank" class="small link-small-160lh"
+                            style="opacity: 0.7;">Terms of Service</a>
+                        </div>
+                      </div>
+                      <p class="small" style="opacity: 0.7; margin: 0;">Crafted with <i class="ph-fill ph-heart"
+                          style="color: #ff4444;"></i> in Kerala</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-xl-2"></div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Bottom Background Images Start -->
+  <div class="bottom__background bottom-bg-02">
+    <div class="bottom-bg-02__02 animate-card-2">
+      <img src="img/backgrounds/1200x1553_bg04.webp" alt="Template background image">
+    </div>
+    <div class="bottom-bg-02__01 animate-card-2">
+      <img src="img/backgrounds/1200x1200_bg05.webp" alt="Template background image">
+    </div>
+  </div>
+  <!-- Bottom Background Images End -->
+
+  <!-- Mobile Menu Bottom Placeholder Start -->
+  <div class="header-offset"></div>
+  <!-- Mobile Menu Bottom Placeholder End -->
+
+  <!-- To Top Button Start -->
+  <a href="#0" id="to-top" class="btn btn-to-top slide-up">
+    <i class="ph ph-arrow-up"></i>
+  </a>
+  <!-- To Top Button End -->
+
+  <!-- Load Scripts Start -->
+  <script src="js/libs.min.js"></script>
+  <script src="js/gallery-init.js"></script>
+  <script src="js/app.js"></script>
+  <!-- Load Scripts End -->
+
+  <!-- Filtering & Card Interactions Script Start -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Portfolio Filter Logic
+      const filterButtons = document.querySelectorAll('.btn-filter');
+      const cards = document.querySelectorAll('#works-showcase .cards__item');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          // Remove active class from all buttons
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          // Add active class to clicked button
+          button.classList.add('active');
+
+          const filterValue = button.getAttribute('data-filter');
+
+          cards.forEach(card => {
+            const category = card.getAttribute('data-category');
+            if (filterValue === 'all' || category === filterValue) {
+              card.style.display = 'block';
+              setTimeout(() => {
+                card.style.opacity = '1';
+                card.style.transform = 'scale(1)';
+              }, 50);
+            } else {
+              card.style.opacity = '0';
+              card.style.transform = 'scale(0.95)';
+              setTimeout(() => {
+                card.style.display = 'none';
+              }, 400);
+            }
+          });
+
+          // Refresh GSAP ScrollTrigger to prevent layout bugs
+          setTimeout(() => {
+            if (window.ScrollTrigger) {
+              ScrollTrigger.refresh();
+            }
+          }, 450);
+        });
+      });
+
+      // 2. Mouse Spotlight and 3D Tilt Interaction Logic
+      const projectCards = document.querySelectorAll('#works-showcase .cards__card');
+
+      projectCards.forEach(card => {
+        // Initialize default spotlight position to center
+        card.style.setProperty('--mouse-x', '50%');
+        card.style.setProperty('--mouse-y', '50%');
+
+        card.addEventListener('mousemove', (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+
+          // Set custom CSS variables for CSS spotlight coordinates
+          card.style.setProperty('--mouse-x', `${x}px`);
+          card.style.setProperty('--mouse-y', `${y}px`);
+
+          // Snappy transition for moving mouse
+          card.style.transition = 'transform 0.08s ease-out, border-color 0.5s ease, box-shadow 0.5s ease';
+
+          // 3D Tilt calculation (max 5deg tilt)
+          const centerX = rect.width / 2;
+          const centerY = rect.height / 2;
+          const rotateX = ((y - centerY) / centerY) * -5;
+          const rotateY = ((x - centerX) / centerX) * 5;
+
+          // Apply rotation and subtle vertical translation
+          card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-8px)`;
+        });
+
+        card.addEventListener('mouseleave', () => {
+          // Smooth transition back to neutral state
+          card.style.transition = 'transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), border-color 0.5s ease, box-shadow 0.5s ease';
+          card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px)';
+        });
+      });
+    });
+  </script>
+  <!-- Filtering & Card Interactions Script End -->
+
+</body>
+
+</html>
